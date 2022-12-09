@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lean Kanban Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <div class="title">
+                <p class="title">Drag & Drop</p>
+                <p class="sub_title">Lean Kanban Board</p>
+            </div>
+        </div>
+        <div class="input_field">
+            <input type="text" placeholder="New Task...">
+            <input type="button" value="Create">
+        </div>
+
+        <div class="board_section">
+            <div class="todo_table each_table">
+                <div class="todo_table_head table_head">Todo </div>
+                <div class="table_items_box">
+                    <div class="table_items" draggable="true"  >
+                        Analysis
+                    </div>
+                </div>
+            </div>
+            <div class="doing_table each_table">
+                <div class="doing_table_head table_head">Doing </div>
+                <div class="table_items_box">
+                    <div class="table_items" draggable="true"  >
+                         Hypothesis
+                    </div>
+                </div>
+            </div>
+            <div class="done_table each_table">
+                <div class="done_table_head table_head"> Done</div>
+                <div class="table_items_box">
+                    <div class="table_items" draggable="true"  >
+                         Ideation
+                    </div>
+                </div>
+            </div>
+            <div class="trash_table each_table">
+                <div class="trash_table_head table_head"> Trash </div>
+                <div class="table_items_box">
+                    <div class="table_items" draggable="true"  >
+                        Interviews
+                    </div>
+                </div>
+                <div class="table_foot">Delete</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

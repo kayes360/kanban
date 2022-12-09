@@ -1,0 +1,87 @@
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; 
+        font-family: sans-serif;
+        }
+    .container{ 
+
+    } 
+    .heading{
+        text-align: center;
+        margin: 50px 0 0 0 ;
+    }
+    .title{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .sub-title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .input_field{
+        text-align: center;
+        width: 100%;
+    }
+    .input_field input[type="text"]{
+        width: 30%;
+        padding: 10px 0px;
+    }
+    .input_field input[type="button"]{
+        width: 10%;
+        padding: 10px 0px;
+        background-color: #202727;
+        color: #fff;
+    }
+    ::-webkit-input-placeholder {
+        text-align: center;
+    }
+    
+    :-moz-placeholder {
+        text-align: center;
+    }
+    .board_section{
+        display: flex;
+        justify-content: center;
+        margin: 100px 0 0 0;
+    }
+    .todo_table, .doing_table, .done_table, .trash_table{
+        border: 1px solid black;
+    }
+    .each_table{
+        width: 18rem;
+        margin: 0 20px; 
+        text-align: center;
+    }
+    .table_head{ 
+    }
+    .todo_table_head,.doing_table_head, .done_table_head,.trash_table_head{
+        padding: 15px 0px;
+        font-weight: bold;
+    }
+    .todo_table_head{
+        background-color: #d5dee0; 
+    }
+    .doing_table_head{
+        background-color: #6ee2e2;
+    }
+    .done_table_head{
+        background-color: #45e6b5;
+    }
+    .trash_table_head,.table_foot{
+        background-color: #d45c42;
+    }
+    .table_items_box{
+    }
+    .table_items{
+        background-color: #e6eaea;
+        padding: 15px 0px;
+        margin: 5px 5px;
+        cursor:all-scroll;
+    }
+    .table_foot{
+        padding: 15px 0px;
+        margin: 5px 5px;
+        border: 1px solid black;
+    }
